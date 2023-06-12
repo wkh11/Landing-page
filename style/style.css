@@ -69,3 +69,48 @@ a {
   max-height:100%;
   object-fit: cover;
 }
+
+/* section two css starts here */
+
+.section-two {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+  /* margin-left: 250px;
+  margin-right: 250px; */
+  margin-bottom: 100px;
+
+}
+
+.section-two-header {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1F2937
+}
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  gap: 50px;
+  /* justify-content:space-evenly; */
+}
+
+.box {
+  display: block; 
+  overflow-wrap: break-word;
+  border: solid #3882F6;
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  border-width: thick;
+}
+
+.section-two-text {
+  width: 150px;
+  display: inline-block;
+  text-align: center;
+  color: gray;
+}
