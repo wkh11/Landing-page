@@ -114,3 +114,73 @@ a {
   text-align: center;
   color: gray;
 }
+
+/* section three css starts here */
+
+.section-three {
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E7EB;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 400;
+  color: #1F2937
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 100px;
+}
+
+.quote-credit {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+}
+
+.credit {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* section four css starts here */
+
+.section-four {
+  display: flex;
+  justify-content: center;
+}
+
+.interior-box {
+  display: flex;
+  background-color: #3882F6;
+  color: white;
+  margin: 100px 100px 100px 100px;
+  height: 150px;
+  width: 1000px;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  border-radius: 8px;
+}
+
+.section-four-left {
+  display: block;
+}
+
+.section-four-button {
+  color: white;
+  background-color: transparent;
+  border: solid;
+  border-width: 2px;
+  width: 100px;
+  height: 30px;
+  border-radius: 8px;
+  
+}
+
